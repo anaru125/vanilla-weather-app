@@ -58,15 +58,15 @@ small {
 }
 .weather-temperature strong {
   color: rgb(95, 108, 175);
-  font-size: 64px;
+  font-size: 60px;
   line-height: 0.5;
   font-weight: 400;
 }
 
 .weather-temperature .units {
   position: relative;
-  font-size: 15px;
-  top: -32px;
+  font-size: 16px;
+  top: -34px;
 }
 
 .weather-temperature .active {
@@ -76,6 +76,25 @@ small {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.3;
+}
+
+.weather-forecast-temperatures-min {
+  opacity: 0.3;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
 }
 
 .weather-temperature .active-f {
